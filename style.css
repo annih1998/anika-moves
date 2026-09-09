@@ -1,0 +1,108 @@
+        /*
+FARBPALETTE – ANIKA MOVES
+
+Weiss:        #ffffff
+Hellgrau:     #f2f2f2
+Anthrazit:    #333333
+Gelb:         #f4c542
+Gelb Hover:   #f5b607
+*/
+        
+        body {
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        
+        header {
+            padding: 20px 0;
+            background-color: #333333;
+        }
+        /* Navigation */
+        
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            color: #f4c542;
+        }
+        /* Startbereich */
+        
+        #home {
+            min-height: 500px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: url("hero.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 60%;
+        }
+        
+        #home h1,
+        #home p {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        #home .container {
+            width: 100%;
+        }
+        
+        .button {
+            background-color: #f4c542;
+            color: #333333;
+            text-decoration: none;
+            display: inline-block;
+            border: 2px solid #333333;
+            padding: 10px 16px;
+            transition: 0.2s;
+            border-radius: 25px;
+        }
+        
+        .button:hover {
+            background-color: #f5b607;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+        /* Projektbereich */
+        
+        #project {
+            padding: 60px 0;
+            background-color: #f4f7f8;
+            border-bottom: 1px solid #dddddd;
+            border-top: 1px solid #dddddd;
+        }
+        
+        .container {
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .project-boxes {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .project-box {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        /* gleich viel Platz rechts und lincs mit margin auto, oben und unten ist Null */
+        
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px 0;
+        }
